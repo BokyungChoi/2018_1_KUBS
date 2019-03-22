@@ -15,13 +15,6 @@ import numpy as np
 
 os.getcwd()
 
-
-# In[346]:
-
-
-os.chdir(r"C:\Users\최보경\Desktop\2018JUNIOR\01-데이터관리와지적경영\teamdata")
-
-
 # In[382]:
 
 
