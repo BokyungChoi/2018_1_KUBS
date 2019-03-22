@@ -5,8 +5,6 @@ Created on Sat Jun  2 00:58:23 2018
 @author: BDI
 """
 
-import os
-os.chdir(r'C:\Users\BDI\Documents\3-1\데이터관리와 지적경영')
 import pandas as pd
 
 #1~4호선
