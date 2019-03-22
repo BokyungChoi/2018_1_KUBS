@@ -9,7 +9,7 @@ import pandas as pd
 import numpy as np
 import sklearn
 
-
+#애초에 역별 트렌드 xlsx가 존재했습니다
 
 # In[21]:
 
