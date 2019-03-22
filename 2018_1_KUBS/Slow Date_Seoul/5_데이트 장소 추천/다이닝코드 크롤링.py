@@ -40,9 +40,9 @@ dining_code('역 이름')
 # In[47]:
 
 
-#for로 리스트 내 맛집 데이터 추출
+#for로 리스트 내 맛집 데이터 추출 (___은 검색어들 리스트 타입으로 넣어주세요)
 dining_rank=pd.DataFrame()
-for i in station_list:
+for i in _____:
     dining_rank=dining_rank.append(pd.Series(dining_code(i)),ignore_index=True)
 
 
