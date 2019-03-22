@@ -9,12 +9,6 @@ import pandas as pd
 import numpy as np
 
 
-# In[52]:
-
-
-os.chdir(r"C:\Users\최보경\Desktop\2018JUNIOR\01-데이터관리와지적경영\teamdata\final")
-
-
 # In[53]:
 
 
@@ -52,7 +46,7 @@ pd.DataFrame(slow_df.loc['역삼'])
 # In[58]:
 
 
-#위 데이터는 저장해뒀긴한데 복잡해보여서 또 다른 시도
+#위 코드 복잡해보여서 또 다른 시도
 dining_df = diningcode_df.set_index(['station'])
 #place_df = place_df.set_index(['역명'])
 # place_df.drop(['호선',''])
