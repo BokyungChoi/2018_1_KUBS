@@ -10,28 +10,8 @@ import numpy as np
 import sklearn
 
 
-# In[2]:
-
-
-os.getcwd()
-
-
-# In[3]:
-
-
-os.chdir(r"C:\\Users\\최보경\\Desktop\\2018JUNIOR\\01-데이터관리와지적경영\\teamdata\\trend")
-
-
-# In[4]:
-
-
-os.getcwd()
-
 
 # In[21]:
-
-
-os.chdir(r"C:\\Users\\최보경\\Desktop\\2018JUNIOR\\01-데이터관리와지적경영\\teamdata")
 
 may1_df=pd.read_csv('may1.txt')
 may1_df.head()
@@ -39,19 +19,6 @@ may1_df.head()
 dong_df=pd.read_csv('REALdong.txt')
 dong_df=dong_df[['호선','행정구','역명','행정동']]
 dong_df.head()
-
-
-# In[301]:
-
-
-os.getcwd()
-
-
-# In[332]:
-
-
-os.getcwd()
-os.chdir(r"C:\\Users\\최보경\\Desktop\\2018JUNIOR\\01-데이터관리와지적경영\\teamdata\\trend")
 
 
 # In[330]:
@@ -204,11 +171,6 @@ y=a.iloc[10:14,2:4]
 y=y.T
 
 
-# In[378]:
-
-
-os.chdir(r"C:\Users\최보경\Desktop\2018JUNIOR\01-데이터관리와지적경영\teamdata\final")
-
 
 # In[92]:
 
@@ -274,11 +236,6 @@ x1.columns=['index','trend_thu','trend_fri','trend_sat','trend_sun']
 
 x1=pd.read_excel('trend_week1.xls')
 
-
-# In[7]:
-
-
-os.chdir(r"C:\\Users\\최보경\\Desktop\\2018JUNIOR\\01-데이터관리와지적경영\\teamdata\\final")
 
 
 # In[91]:
